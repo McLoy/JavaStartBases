@@ -1,6 +1,8 @@
 package net.start.shopexample.objects.service;
 
 import net.start.shopexample.objects.department.BaseDepartment;
+import net.start.shopexample.objects.interfaces.DepartmentInterface;
+import net.start.shopexample.objects.interfaces.ProductsInteface;
 import net.start.shopexample.objects.product.BaseProduct;
 import net.start.shopexample.objects.shopEmployeer.Administrator;
 
@@ -11,11 +13,11 @@ import java.util.ArrayList;
  */
 public class SellerHall {
 
-    private ArrayList<BaseDepartment> departmentList;
+    private ArrayList<DepartmentInterface> departmentList;
 
     private String name;
 
-    private ArrayList<BaseProduct> productList;
+    private ArrayList<ProductsInteface> productList;
 
     private Administrator administrator;
 

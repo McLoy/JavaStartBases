@@ -7,12 +7,12 @@ public interface ProductsInteface {
 
     double getPrice();
 
-    boolean hasGuarantee();
+    boolean HasGuarantee();
 
     String getName();
 
     DepartmentInterface getDepartment();
 
-    String getCompany();
+    String getFirm();
 
 }
