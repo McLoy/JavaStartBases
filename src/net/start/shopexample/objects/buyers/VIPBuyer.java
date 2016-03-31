@@ -4,31 +4,20 @@ package net.start.shopexample.objects.buyers;
  * Created by McLoy on 29.03.2016.
  */
 public class VIPBuyer extends Buyer{
-//    String name;
-    int discount;
 
-    public VIPBuyer(String name, int discount) {
-        super(name);
-        this.discount = discount;
+    private float discount;
+
+    @Override
+    public void buy()
+        if(!checkDiscount())
+    {
+        super.buy();
+    } else {
+        //buying with discount
     }
 
-    //    public String getName() {
-//        return name;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-
-    public int getDiscount() {
-        return discount;
+    private checkDiscount(){
+        return discount>0;
     }
 
-    public void setDiscount(int discount) {
-        this.discount = discount;
-    }
-
-    public void buyWithDiscount(){}
-
-    public void returnProduct(){}
 }
