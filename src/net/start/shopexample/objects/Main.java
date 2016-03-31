@@ -2,7 +2,7 @@ package net.start.shopexample.objects;
 
 import net.start.shopexample.objects.buyers.Buyer;
 import net.start.shopexample.objects.buyers.VIPBuyer;
-import net.start.shopexample.objects.shopEmployeers.Seller;
+import net.start.shopexample.objects.shopEmployeer.Seller;
 
 /**
  * Created by McLoy on 31.03.2016.

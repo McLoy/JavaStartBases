@@ -1,9 +1,9 @@
 package net.start.shopexample.objects.service;
 
 import net.start.shopexample.objects.department.BaseDepartment;
-import net.start.shopexample.objects.shopEmployeers.Administrator;
-import net.start.shopexample.objects.shopEmployeers.Cashier;
-import net.start.shopexample.objects.shopEmployeers.Security;
+import net.start.shopexample.objects.shopEmployeer.Administrator;
+import net.start.shopexample.objects.shopEmployeer.Cashier;
+import net.start.shopexample.objects.shopEmployeer.Security;
 
 /**
  * Created by McLoy on 29.03.2016.

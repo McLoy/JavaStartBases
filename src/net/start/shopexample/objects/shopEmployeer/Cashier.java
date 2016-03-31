@@ -1,9 +1,9 @@
-package net.start.shopexample.objects.shopEmployeers;
+package net.start.shopexample.objects.shopEmployeer;
 
 /**
  * Created by McLoy on 29.03.2016.
  */
-public class Cashier {
+public class Cashier extends BaseEmployee{
     String name;
     int id;
 

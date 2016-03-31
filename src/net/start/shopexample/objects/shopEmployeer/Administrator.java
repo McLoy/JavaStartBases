@@ -1,9 +1,9 @@
-package net.start.shopexample.objects.shopEmployeers;
+package net.start.shopexample.objects.shopEmployeer;
 
 /**
  * Created by McLoy on 29.03.2016.
  */
-public class Security {
+public class Administrator extends BaseEmployee{
     String name;
 
     public String getName() {
@@ -14,7 +14,5 @@ public class Security {
         this.name = name;
     }
 
-    public void checkProduct(){}
-
-    public void putStampOnCheck(){}
+    public void setSellerForBuyer(){}
 }
