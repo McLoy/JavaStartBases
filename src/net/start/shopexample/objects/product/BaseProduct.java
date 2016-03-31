@@ -6,7 +6,7 @@ import net.start.shopexample.objects.interfaces.ProductsInteface;
 /**
  * Created by McLoy on 31.03.2016.
  */
-public class BaseProduct implements ProductsInteface{
+public abstract class BaseProduct implements ProductsInteface{
 
     private String name;
 

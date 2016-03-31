@@ -7,7 +7,7 @@ import net.start.shopexample.objects.interfaces.EmployeeInterface;
 /**
  * Created by McLoy on 31.03.2016.
  */
-public class BaseEmployee implements EmployeeInterface{
+public abstract class BaseEmployee implements EmployeeInterface{
 
     private String name;
 

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 /**
  * Created by McLoy on 29.03.2016.
  */
-public class BaseDepartment implements DepartmentInterface {
+public abstract class BaseDepartment implements DepartmentInterface {
 
     private String name;
     private ArrayList<ProductsInteface> productList;

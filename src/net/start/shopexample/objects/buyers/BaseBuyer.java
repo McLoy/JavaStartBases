@@ -5,7 +5,7 @@ import net.start.shopexample.objects.interfaces.BuyersInterface;
 /**
  * Created by McLoy on 31.03.2016.
  */
-public class BaseBuyer implements BuyersInterface{
+public abstract class BaseBuyer implements BuyersInterface{
 
     private String name;
 

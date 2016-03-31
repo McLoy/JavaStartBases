@@ -9,14 +9,14 @@ import net.start.shopexample.objects.shopEmployeer.Seller;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Start Shop");
-        Seller seller = new Seller();
-        Buyer buyer = new Buyer("Matvey");
-        seller.Consultation(buyer);
-        buyer.buy();
-        VIPBuyer vipbuyer = new VIPBuyer("Tamara", 15);
-        seller.Consultation();
-        vipbuyer.buy();
-        System.out.println("Finish");
+//        System.out.println("Start Shop");
+//        Seller seller = new Seller();
+//        Buyer buyer = new Buyer("Matvey");
+//        seller.Consultation(buyer);
+//        buyer.buy();
+//        VIPBuyer vipbuyer = new VIPBuyer("Tamara", 15);
+//        seller.Consultation();
+//        vipbuyer.buy();
+//        System.out.println("Finish");
     }
 }
