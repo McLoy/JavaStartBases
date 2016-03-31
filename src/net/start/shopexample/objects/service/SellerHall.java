@@ -1,5 +1,6 @@
 package net.start.shopexample.objects.service;
 
+import net.start.shopexample.objects.department.BaseDepartment;
 import net.start.shopexample.objects.shopEmployeers.Administrator;
 import net.start.shopexample.objects.shopEmployeers.Cashier;
 import net.start.shopexample.objects.shopEmployeers.Security;
@@ -9,7 +10,7 @@ import net.start.shopexample.objects.shopEmployeers.Security;
  */
 public class SellerHall {
     int section;
-    Department dep;
+    BaseDepartment dep;
     Cashier Cash1;
     Security Sec;
     Administrator Admin;
