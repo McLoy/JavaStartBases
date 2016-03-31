@@ -8,6 +8,13 @@ import net.start.shopexample.objects.interfaces.ProductsInteface;
  */
 public abstract class BaseProduct implements ProductsInteface{
 
+    public BaseProduct() {
+    }
+
+    public BaseProduct(String name) {
+        this.name = name;
+    }
+
     private String name;
 
     private double price;

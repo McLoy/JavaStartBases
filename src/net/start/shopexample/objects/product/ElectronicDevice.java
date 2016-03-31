@@ -7,6 +7,13 @@ import net.start.shopexample.objects.interfaces.ElectronicDeviceInterface;
  */
 public class ElectronicDevice extends BaseProduct implements ElectronicDeviceInterface{
 
+    public ElectronicDevice() {
+    }
+
+    public ElectronicDevice(String name) {
+        super(name);
+    }
+
     @Override
     public void on(){
         //Общая реализация

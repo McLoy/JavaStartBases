@@ -5,9 +5,9 @@ package net.start.shopexample.objects.interfaces;
  */
 public interface BuyersInterface {
 
-    void buy();
+    void buy(ProductsInteface products);
 
-    void returnProduct();
+    void returnProduct(ProductsInteface products);
 
     String getName();
 }
