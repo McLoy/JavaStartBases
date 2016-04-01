@@ -9,5 +9,12 @@ public class TV extends ElectronicDevice{
         super(name);
     }
 
-    public void selectChannel(){}
+    public void selectChannel(int chanelNumber){
+        System.out.println("chanel number: " + chanelNumber);
+    }
+
+    public void selectChannel(String chanelName){
+        System.out.println("chanel name: " + chanelName);
+
+    }
 }

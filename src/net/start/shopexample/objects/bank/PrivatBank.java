@@ -20,4 +20,8 @@ public class PrivatBank extends BaseBank {
     public void giveCredit(){
         //Доработанная Реализация
     }
+
+    public void checkInfo(boolean critical){
+        System.out.println("PrivatBank");
+    }
 }

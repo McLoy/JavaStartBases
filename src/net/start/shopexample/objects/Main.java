@@ -1,5 +1,6 @@
 package net.start.shopexample.objects;
 
+import net.start.shopexample.objects.bank.PrivatBank;
 import net.start.shopexample.objects.buyers.Buyer;
 import net.start.shopexample.objects.product.Computer;
 import net.start.shopexample.objects.product.Subwoofer;
@@ -10,14 +11,24 @@ import net.start.shopexample.objects.product.TV;
  */
 public class Main {
     public static void main(String[] args) {
+//        TV tv = new TV("Samsung");
+//        Computer computer = new Computer("Apple");
+//        Subwoofer subwoofer = new Subwoofer("Microlab");
+//
+//        Buyer buyer = new Buyer();
+//
+//        buyer.buy(tv);
+//        buyer.buy(computer);
+//        buyer.buy(subwoofer);
+
+//        PrivatBank privat = new PrivatBank("Pr", "test desc");
+//        privat.checkInfo(true);
+//        privat.checkInfo();
+
         TV tv = new TV("Samsung");
-        Computer computer = new Computer("Apple");
-        Subwoofer subwoofer = new Subwoofer("Microlab");
+        tv.selectChannel(5);
+        tv.selectChannel("Sports");
 
-        Buyer buyer = new Buyer();
 
-        buyer.buy(tv);
-        buyer.buy(computer);
-        buyer.buy(subwoofer);
     }
 }
