@@ -7,7 +7,9 @@ import net.start.shopexample.objects.buyers.Buyer;
  */
 public class Seller extends BaseEmployee{
 
-    public void consult(){}
+    public void consult(Buyer buy){
+        buy.setConsulted(true);
+    }
 
     public void send(){}
 

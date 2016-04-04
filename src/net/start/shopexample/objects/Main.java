@@ -14,6 +14,7 @@ import net.start.shopexample.objects.product.TV;
 import net.start.shopexample.objects.service.SellerHall;
 import net.start.shopexample.objects.shopEmployeer.Administrator;
 import net.start.shopexample.objects.shopEmployeer.Banker;
+import net.start.shopexample.objects.shopEmployeer.Seller;
 
 import java.util.ArrayList;
 
@@ -102,11 +103,21 @@ public class Main {
             System.out.println("There are no products! Sorry!");
         }
 
-//        PrivatBank bank = new PrivatBank();
-//
-//        Banker banker = new Banker();
-//        banker.setBank(bank);
-//        System.out.println(banker.getName() + bank.getName());
+        PrivatBank pbank = new PrivatBank("Privat", "CreditLine");
+
+        Banker banker = new Banker();
+        banker.setBank(pbank);
+        banker.setName("Федот");
+        System.out.println(banker.getName());
+        System.out.println(banker.getBank().getName());
+
+        Buyer buy1 = new Buyer();
+        Seller seller = new Seller();
+        seller.setName("Продавец");
+
+
+        seller.consult(buy1);
+        buy1.buy(goods.get(2));
 
         System.out.println("Have a nice day!");
 

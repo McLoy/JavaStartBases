@@ -9,10 +9,11 @@ import net.start.shopexample.objects.interfaces.ProductsInteface;
 public abstract class BaseBuyer implements BuyersInterface{
 
     private String name;
+    private boolean consulted;
 
     @Override
     public void buy(ProductsInteface products){
-        System.out.println(products.getName());
+        System.out.println("Buying " + products.getName());
     }
     @Override
     public void returnProduct(ProductsInteface products){
@@ -24,4 +25,7 @@ public abstract class BaseBuyer implements BuyersInterface{
         return name;
     }
 
+    public void setConsulted(boolean consulted) {
+        this.consulted = consulted;
+    }
 }
