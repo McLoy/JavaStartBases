@@ -10,4 +10,12 @@ public class Banker extends BaseEmployee {
     private BankInterface bank; //Композиция
 
     public void sendRequest(){}
+
+    public BankInterface getBank() {
+        return bank;
+    }
+
+    public void setBank(BankInterface bank) {
+        this.bank = bank;
+    }
 }

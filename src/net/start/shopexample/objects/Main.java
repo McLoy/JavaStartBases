@@ -13,6 +13,7 @@ import net.start.shopexample.objects.product.Subwoofer;
 import net.start.shopexample.objects.product.TV;
 import net.start.shopexample.objects.service.SellerHall;
 import net.start.shopexample.objects.shopEmployeer.Administrator;
+import net.start.shopexample.objects.shopEmployeer.Banker;
 
 import java.util.ArrayList;
 
@@ -100,6 +101,12 @@ public class Main {
         }else {
             System.out.println("There are no products! Sorry!");
         }
+
+//        PrivatBank bank = new PrivatBank();
+//
+//        Banker banker = new Banker();
+//        banker.setBank(bank);
+//        System.out.println(banker.getName() + bank.getName());
 
         System.out.println("Have a nice day!");
 
